@@ -1,0 +1,104 @@
+{
+  "name": "@ai-security-tool/trzsz2",
+  "version": "1.2.0",
+  "description": "A pure JavaScript/TypeScript implementation of trzsz protocol - file transfer similar to zmodem but more simple and efficient",
+  "keywords": [
+    "trzsz",
+    "file transfer",
+    "protocol",
+    "terminal",
+    "zmodem",
+    "rz",
+    "sz",
+    "upload",
+    "download"
+  ],
+  "homepage": "https://github.com/Anubis-Security-Tool/anubis-packages/tree/main/trzsz2",
+  "license": "MIT",
+  "author": "ZHAO Xudong <zxdong262@gmail.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/cjs-full/index.cjs"
+      }
+    },
+    "./browser": {
+      "default": "./dist/browser/trzsz2.js"
+    }
+  },
+  "main": "./dist/cjs-full/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "browser": "./dist/browser/trzsz2.js",
+  "files": [
+    "dist",
+    "README.md",
+    "README.cn.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "pako": "^2.1.0",
+    "ts-md5": "^1.3.1"
+  },
+  "devDependencies": {
+    "@ai-security-tool/ssh2": "^1.17.0",
+    "@types/node": "^20.10.0",
+    "@types/pako": "^2.0.4",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/xterm": "^5.5.0",
+    "ajv": "^8.18.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "esbuild": "^0.19.12",
+    "express": "^5.2.1",
+    "express-ws": "^5.0.2",
+    "jsdom": "^28.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "standard": "^17.1.0",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.3.0",
+    "vite": "^7.0.0",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "standard": {
+    "env": [
+      "browser"
+    ],
+    "globals": [
+      "WebSocket",
+      "FileReader",
+      "atob",
+      "btoa"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anubis-Security-Tool/anubis-packages.git",
+    "directory": "trzsz2"
+  },
+  "bugs": {
+    "url": "https://github.com/Anubis-Security-Tool/anubis-packages/issues"
+  },
+  "anubisUpstreamRepository": "git+https://github.com/ai-security-tool/trzsz2.git"
+}

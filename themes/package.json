@@ -1,0 +1,48 @@
+{
+  "name": "@ai-security-tool/themes",
+  "version": "1.0.2",
+  "description": "electerm themes vendored from iTerm2-Color-Schemes",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "ZHAO Xudong",
+    "email": "zxdong@gmail.com",
+    "url": "https://github.com/zxdong262"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README_cn.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "standard": {
+    "sourceType": "module",
+    "ignore": [
+      "/dist",
+      "/temp"
+    ]
+  },
+  "devDependencies": {
+    "json-deep-copy": "^1.3.1",
+    "json5": "^2.2.3",
+    "shelljs": "^0.8.5",
+    "standard": "^17.1.0"
+  },
+  "homepage": "https://github.com/Anubis-Security-Tool/anubis-packages/tree/main/themes",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anubis-Security-Tool/anubis-packages.git",
+    "directory": "themes"
+  },
+  "bugs": {
+    "url": "https://github.com/Anubis-Security-Tool/anubis-packages/issues"
+  },
+  "anubisUpstreamRepository": "git+https://github.com/ai-security-tool/themes.git"
+}

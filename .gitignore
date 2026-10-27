@@ -1,0 +1,8 @@
+managed-access/
+scripts/
+**/node_modules/
+**/.env
+**/.env.*
+**/.npmrc
+**/*.log
+**/*.tgz

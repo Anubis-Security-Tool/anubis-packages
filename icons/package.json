@@ -1,0 +1,45 @@
+{
+  "name": "@ai-security-tool/icons",
+  "version": "1.0.1",
+  "description": "Lightweight icon library for electerm with essential file type icons",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "icons/",
+    "NOTICE"
+  ],
+  "keywords": [
+    "electerm",
+    "electerm-icons",
+    "vscode-icons",
+    "file-icons",
+    "typescript"
+  ],
+  "author": "ZHAO Xudong <zxdong@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^1.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "homepage": "https://github.com/Anubis-Security-Tool/anubis-packages/tree/main/icons",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anubis-Security-Tool/anubis-packages.git",
+    "directory": "icons"
+  },
+  "bugs": {
+    "url": "https://github.com/Anubis-Security-Tool/anubis-packages/issues"
+  },
+  "anubisUpstreamRepository": "git+https://github.com/ai-security-tool/icons.git"
+}

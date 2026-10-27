@@ -1,0 +1,8 @@
+@ai-security-tool/trzsz2
+
+Vendored from npm package trzsz2@1.2.0 (https://github.com/zxdong262/trzsz2).
+Original author(s): ZHAO Xudong <zxdong262@gmail.com>
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

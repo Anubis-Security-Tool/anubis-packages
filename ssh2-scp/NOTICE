@@ -1,0 +1,8 @@
+@ai-security-tool/ssh2-scp
+
+Vendored from npm package ssh2-scp@3.3.0 (https://github.com/electerm/ssh2-scp).
+Original author(s): ZHAO Xudong <zxdong@gmail.com>
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

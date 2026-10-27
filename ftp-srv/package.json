@@ -1,0 +1,70 @@
+{
+  "name": "@ai-security-tool/ftp-srv",
+  "version": "1.0.6",
+  "description": "Modern, extensible FTP Server (TypeScript version)",
+  "keywords": [
+    "ftp",
+    "ftp-server",
+    "ftp-srv",
+    "ftp-svr",
+    "ftpd",
+    "ftpserver",
+    "server",
+    "typescript",
+    "esm",
+    "cjs",
+    "electerm"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "default": "./dist/cjs/index.js"
+      }
+    }
+  },
+  "bin": {
+    "electermftpsrv": "bin/index.cjs"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "LICENSE",
+    "README.md",
+    "README.zh.md",
+    "NOTICE"
+  ],
+  "dependencies": {
+    "commander": "^14.0.3"
+  },
+  "devDependencies": {
+    "@icetee/ftp": "^1.0.8",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "homepage": "https://github.com/Anubis-Security-Tool/anubis-packages/tree/main/ftp-srv",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anubis-Security-Tool/anubis-packages.git",
+    "directory": "ftp-srv"
+  },
+  "bugs": {
+    "url": "https://github.com/Anubis-Security-Tool/anubis-packages/issues"
+  },
+  "anubisUpstreamRepository": "git+https://github.com/ai-security-tool/ftp-srv.git"
+}

@@ -1,0 +1,8 @@
+@ai-security-tool/sync
+
+Vendored from npm package electerm-sync@2.1.0 (https://github.com/electerm/electerm-sync).
+Original author(s): ZHAO Xudong <zxdong@gmail.com>
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

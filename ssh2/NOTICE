@@ -1,0 +1,8 @@
+@ai-security-tool/ssh2
+
+Vendored from npm package @electerm/ssh2@1.22.1 (https://github.com/mscdex/ssh2).
+Original author(s): Brian White <mscdex@mscdex.net> (ssh2); electerm fork by ZHAO Xudong
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

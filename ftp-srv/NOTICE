@@ -1,0 +1,8 @@
+@ai-security-tool/ftp-srv
+
+Vendored from npm package @electerm/ftp-srv@1.0.6 (https://github.com/electerm/ftp-srv).
+Original author(s): Tyler Stewart (ftp-srv); electerm fork by ZHAO Xudong
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

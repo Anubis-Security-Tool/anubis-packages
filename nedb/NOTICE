@@ -1,0 +1,8 @@
+@ai-security-tool/nedb
+
+Vendored from npm package @electerm/nedb@2.0.0 (https://github.com/electerm/nedb).
+Original author(s): Louis Chatriot (NeDB); electerm fork by ZHAO Xudong
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

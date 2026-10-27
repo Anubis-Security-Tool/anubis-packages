@@ -1,0 +1,8 @@
+@ai-security-tool/xterm
+
+Vendored from npm package @electerm/xterm@6.1.0-beta.292-electerm.2 (https://github.com/electerm/xterm.js).
+Original author(s): xterm.js authors (The xterm.js authors, SourceLair, Microsoft); electerm fork by ZHAO Xudong
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

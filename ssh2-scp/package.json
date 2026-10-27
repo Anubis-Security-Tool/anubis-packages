@@ -1,0 +1,64 @@
+{
+  "name": "@ai-security-tool/ssh2-scp",
+  "version": "3.3.0",
+  "description": "Remote file system operations over SSH2 session without SFTP",
+  "homepage": "https://github.com/Anubis-Security-Tool/anubis-packages/tree/main/ssh2-scp",
+  "license": "MIT",
+  "author": "ZHAO Xudong <zxdong@gmail.com>",
+  "type": "module",
+  "main": "./dist/cjs/ssh-fs.js",
+  "module": "./dist/esm/ssh-fs.js",
+  "types": "./dist/esm/ssh-fs.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/ssh-fs.js",
+      "require": "./dist/cjs/ssh-fs.cjs",
+      "types": "./dist/esm/ssh-fs.d.ts"
+    },
+    "./transfer": {
+      "import": "./dist/esm/transfer.js",
+      "require": "./dist/cjs/transfer.cjs",
+      "types": "./dist/esm/transfer.d.ts"
+    },
+    "./folder-transfer": {
+      "import": "./dist/esm/folder-transfer.js",
+      "require": "./dist/cjs/folder-transfer.cjs",
+      "types": "./dist/esm/folder-transfer.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README-CN.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "devDependencies": {
+    "@ai-security-tool/ssh2": "^1.19.0",
+    "@types/iconv-lite": "^0.0.1",
+    "@types/node": "^20.10.0",
+    "@types/ssh2": "^1.11.0",
+    "@types/tar": "^6.1.0",
+    "dotenv": "^16.4.0",
+    "iconv-lite": "^0.7.2",
+    "tar": "^6.2.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anubis-Security-Tool/anubis-packages.git",
+    "directory": "ssh2-scp"
+  },
+  "bugs": {
+    "url": "https://github.com/Anubis-Security-Tool/anubis-packages/issues"
+  },
+  "anubisUpstreamRepository": "git+https://github.com/ai-security-tool/ssh2-scp.git"
+}

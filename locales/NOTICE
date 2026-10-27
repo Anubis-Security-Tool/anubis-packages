@@ -1,0 +1,8 @@
+@ai-security-tool/locales
+
+Vendored from npm package @electerm/electerm-locales@2.3.34 (https://github.com/electerm/electerm-locales).
+Original author(s): ZHAO Xudong <zxdong@gmail.com>
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.

@@ -1,0 +1,8 @@
+@ai-security-tool/themes
+
+Vendored from npm package @electerm/electerm-themes@1.0.2 (https://github.com/electerm/electerm-themes).
+Original author(s): ZHAO Xudong <zxdong@gmail.com>
+Original license: MIT (see LICENSE)
+
+Modifications: package renamed to the @ai-security-tool scope and
+repository/homepage/bugs metadata updated. No functional changes.
